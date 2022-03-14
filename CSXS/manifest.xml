@@ -34,7 +34,7 @@
         <UI>
           <Type>Panel</Type>
           <!-- 6) -->
-          <Menu>Changing Colors</Menu>
+          <Menu>Label Colors</Menu>
           <Geometry>
             <Size>
               <!-- 7) -->
