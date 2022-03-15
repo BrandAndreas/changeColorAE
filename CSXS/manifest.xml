@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <!-- 1) -->
-<ExtensionManifest ExtensionBundleId="com.my.changeColor" ExtensionBundleVersion="1.0.0" Version="7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ExtensionManifest ExtensionBundleId="com.my.test" ExtensionBundleVersion="1.0.0" Version="7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ExtensionList>
     <!-- 2) -->
-    <Extension Id="com.my.changeColor.panel" Version="1.0.0" />
+    <Extension Id="com.my.test.panel" Version="1.0.0" />
   </ExtensionList>
   <ExecutionEnvironment>
     <HostList>
@@ -19,7 +19,7 @@
   </ExecutionEnvironment>
   <DispatchInfoList>
     <!-- 2) -->
-    <Extension Id="com.my.changeColor.panel">
+    <Extension Id="com.my.test.panel">
       <DispatchInfo>
         <Resources>
           <!-- 4) -->
@@ -34,7 +34,7 @@
         <UI>
           <Type>Panel</Type>
           <!-- 6) -->
-          <Menu>Label Colors</Menu>
+          <Menu>Label Color</Menu>
           <Geometry>
             <Size>
               <!-- 7) -->
